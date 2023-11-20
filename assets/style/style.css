@@ -10,9 +10,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--neutral-lightGray)!important;
 }
 .container{
-    max-width: 900px!important;
+    max-width: 768px!important;
     box-shadow: 10px 10px 20px var(--neutral-grayishBlue);
     
 }
@@ -22,7 +23,7 @@ body{
 .card-group .card:last-child{
     background:linear-gradient(to right ,#56BDBA 80%,var(--primary-cyan));
 }
-h6{
+h3{
     color: var(--neutral-lightGray)!important;
     font-size: 1.3rem!important;
 }
@@ -47,17 +48,24 @@ button{
     font-size: 15px;
     line-height: 1.5rem;
 }
-.card.top h5{
+.card.top h2{
     color: var(--primary-cyan);
     font-size: 1.5rem;
 }
-.card.top h6{
+.card.top h3{
     color: var(--primary-brightYellow)!important;
     font-size: 1.3rem;
 }
 .card.top p{
     color: var(--neutral-grayishBlue)!important;
     font-size: 1.1rem;
+}
+.row:first-child .col .card{
+    border-radius: 15px 15px 0 0 !important;
+    -webkit-border-radius: 15px 15px 0 0 !important;
+    -moz-border-radius: 15px 15px 0 0 !important;
+    -ms-border-radius: 15px 15px 0 0 !important;
+    -o-border-radius: 15px 15px 0 0 !important;
 }
 .container{
     border-radius: 15px;
